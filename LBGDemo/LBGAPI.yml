@@ -1,0 +1,13 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: LBGAPI
+  namespace: LBGDemo
+  version: '1.0'
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./LBGAPI-spec.yml
+  policy-sequence:
+    - $ref: LBGDemo:Datapower GW:1.0
