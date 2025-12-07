@@ -1,8 +1,8 @@
 projects:
   APICv12Trial:
-    description: ''
+    description: v12 policy fundamentals
     tags: []
-    lastUpdated: 1763651336004
+    lastUpdated: 1765135447619
   LBGDemo:
     description: >-
       Demonstration of the API Studio, including building multiple types of
