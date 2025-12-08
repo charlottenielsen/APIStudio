@@ -1,0 +1,13 @@
+kind: StagedPolicySequence
+apiVersion: api.ibm.com/v1
+metadata:
+  name: WM API GW
+  namespace: LBGDemo
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - webMethods
+spec:
+  routing:
+    - $ref: LBGDemo:default-invoke-policy-WM API GW:1.0
