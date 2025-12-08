@@ -1,0 +1,18 @@
+kind: Quota
+apiVersion: api.ibm.com/v1
+metadata:
+  name: Quota-r7gb68
+  namespace: LBGDemo
+  version: '1.0'
+  tags: []
+  description: ''
+spec:
+  maxRequest: 100
+  interval: 100m
+  extensions:
+    dp-nano-gateway:
+      apiVersion: api.ibm.com/v1
+      spec:
+        weightExpr: ''
+        exceedAction: return429
+        intervalOffset: '1'
